@@ -12,10 +12,10 @@ const prodConfig = {
         publicPath: '/container/latest/'
     },
     plugins: [
-        new ModuleFgitederationPlugin({
+        new ModuleFederationPlugin({
             name: 'container',
             remotes: {
-                marketing: `marketing@/marketing/latest/remoteEntry.js`
+                marketing: `marketing@marketing/latest/remoteEntry.js`
             },
             shared: packageJson.dependencies
         })
