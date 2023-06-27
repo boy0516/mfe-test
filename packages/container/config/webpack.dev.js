@@ -12,7 +12,6 @@ const devConfig = {
         }
     },
     plugins: [
-        
         new ModuleFederationPlugin({
             name: 'marketing',
             remotes: {
