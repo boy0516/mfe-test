@@ -3,7 +3,7 @@ const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPl
 const commonConfig = require('./webpack.common');
 const packageJson = require('../package.json');
 
-const domain = 'https://dfw2ubbhxev5u.cloudfront.net/';
+const domain = 'https://dfw2ubbhxev5u.cloudfront.net';
 
 const prodConfig = {
     mode: 'production',
